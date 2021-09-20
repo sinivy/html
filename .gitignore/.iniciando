@@ -1,0 +1,106 @@
+<! DOCTYPE html>
+<!--
+code by sinivy
+-->
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+      <title>Html</title>
+</head>
+
+ <body>
+    <div>
+      <h1>Glossário</h1>
+      <dl>
+        <dt> Tags</dt>
+         <dd> Parágrafo</dd>
+         <dd>ênfase</dd>
+         <dd>importância</dd>
+         <dd>Hyperlinks</dd>
+         <dd>Quebrar</dd>
+         <dd>Espaço</dd>
+        <dt>Listas</dt>
+         <dd>Não Ordenada</dd>
+         <dd>Ordenada</dd>
+        <dt>Citações</dt>
+         <dd>Blockquote</dd>
+         <dd>Cite</dd>
+        <dt>Abreviações</dt>
+      </dl>
+      
+      <h1> Tags </h1>
+        <p> Para fazer parágrafo;<br>
+         Para dar <em>ênfase;</em><br>
+         Para dar importância <strong>(negrito);</strong>
+         <br>Essa tag serve para por 
+         <a href="https://www.w3schools.com/html/html_links.asp">link ou Hyperlinks</a>
+        </p>
+       
+        <p>
+         <br/> Para Quebrar <br>a linha no meio </br> do parágrafo.
+         <br>Usado de três maneiras diferentes,<br> com / no começo ou final, ou sem /
+         <br>Pois possui fechamento automático.
+        </p>
+    
+        <p> 
+          <br>Temos também como dar &nbsp; Espaço &nbsp; no texto,<br> colocando 
+         várias vezes para <br> 
+         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+         aumentar a &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; distância.
+        </p>
+        <br>
+      <h1>Listas</h1>
+      <h2>Lista não Ordenada</h2>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+      </ul> 
+       <br>
+     <h2>Lista Ordenada</h2> 
+     &nbsp; Mais <em>recomendada</em> de usar, deixa os itens
+     <br> &nbsp; ordenados por <strong>números</strong>.
+       <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+       </ol>
+       <br>
+      <h1>Citações</h1>
+        <h2>Blockquote</h2>
+         <blockquote cite="https://www.google.com/">
+          Para fazer <strong>citações </strong>
+          <code>&lt;Nome&gt;</code>
+          <br>Cria esse espaço diferenciado
+          <br>na página da web.
+         </blockquote>
+        <h2>Cite</h2>
+        <p>De acordo com <a href="https://www.google.com/">
+          <cite>a página</cite></a>. Basicamente é uma palavra com link.
+          <br> Usado para citações que não precisa de quebra de linha.
+        </p>
+        <br>
+      <h1>Abreviações</h1>
+       Quando pousar o mouse em cima da <abbr title="Como esse exemplo">palavra</abbr>, 
+       <br>irá aparecer uma janela com texto.
+      <br>
+
+      <h1></h1>
+<br>
+<address>
+  <p>
+    Anna Barreto (Sinivy)<br>
+    <em>Manaus - AM, Brasil</em><br>
+    Follow me in <a href="https://github.com/sinivy">GitHub</a> =)
+  </p>
+</address>
+  </body>
+</html>
